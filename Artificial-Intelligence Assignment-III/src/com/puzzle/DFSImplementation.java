@@ -1,17 +1,17 @@
-/**
+package com.puzzle; /**
  * Created by Kushagra Thapar on 9/17/15.
  */
 
-import java.util.LinkedList;
-import java.util.Queue;
+import com.puzzle.AbstractEightPuzzleStructure;
 
-public class BFSImplementation extends AbstractEightPuzzleStructure {
+import java.util.Stack;
+
+public class DFSImplementation extends AbstractEightPuzzleStructure {
 
     /**
-     * Since, BFS uses FIFO, so we have used a queue here as the frontier, which is implemented
-     * using linked list to add new Nodes.
+     * Since, DFS uses LIFO, so we have used a stack here as the frontier, to add new nodes
      */
-    public Queue<String> queueFrontier = new LinkedList<>();
+    public Stack<String> stackFrontier = new Stack<>();
 
     @Override
     public void addNewNodeToFrontier(String newNode, String oldNode) {
@@ -20,7 +20,7 @@ public class BFSImplementation extends AbstractEightPuzzleStructure {
             //  This new node has already been visited, so skip this
         } else {
 
-            queueFrontier.add(newNode);
+            stackFrontier.push(newNode);
 
             //  Check for root node
             if (oldNode == null) {

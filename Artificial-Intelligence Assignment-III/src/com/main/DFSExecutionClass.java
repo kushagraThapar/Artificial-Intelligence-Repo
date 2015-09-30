@@ -1,9 +1,11 @@
+package com.main;
+
+import com.puzzle.DFSImplementation;
+
 /**
  * Created by Kushagra Thapar on 9/17/15.
  */
-
-public class BFSExecutionClass {
-
+public class DFSExecutionClass {
     /**
      * Taking the initial state as what has been described in the problem statement.
      * <p>
@@ -22,15 +24,14 @@ public class BFSExecutionClass {
          */
         String str = INITIAL_STATE;
 
-        if (args.length == 1) {
+        if(args.length == 1) {
             str = args[0];
         }
 
-        BFSImplementation e = new BFSImplementation();
-
+        DFSImplementation e = new DFSImplementation();
         System.out.println("Input State is : \n" + e.printEachNodeAsState(str));
 
-        if (!e.verifyInputState(str)) {
+        if(!e.verifyInputState(str)) {
             System.out.println("Input State is not a valid state for a 8-puzzle problem. " +
                     "Please verify the input state. Exiting now....");
             System.exit(1);
@@ -46,8 +47,8 @@ public class BFSExecutionClass {
          *  pull the current node from the frontier and perform actions in order of up, down, left and right
          *  to find the next possible states.
          */
-        while (!e.queueFrontier.isEmpty()) {
-            String currentState = e.queueFrontier.remove();
+        while (!e.stackFrontier.isEmpty()) {
+            String currentState = e.stackFrontier.pop();
             e.performUpwardAction(currentState);
             e.performDownwardAction(currentState);
             e.performLeftwardAction(currentState);

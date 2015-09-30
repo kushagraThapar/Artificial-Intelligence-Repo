@@ -1,3 +1,5 @@
+package com.puzzle;
+
 import java.util.*;
 
 /**
@@ -188,7 +190,7 @@ abstract public class AbstractEightPuzzleStructure {
      *
      * @param node
      */
-    protected String printEachNodeAsState(String node) {
+    public String printEachNodeAsState(String node) {
         StringBuilder builder = new StringBuilder();
         int index = 0;
         for (char c : node.toCharArray()) {
@@ -210,7 +212,7 @@ abstract public class AbstractEightPuzzleStructure {
      * @param state
      * @return
      */
-    protected boolean verifyInputState(String state) {
+    public boolean verifyInputState(String state) {
         if(state == null || state.isEmpty())
             return false;
 
