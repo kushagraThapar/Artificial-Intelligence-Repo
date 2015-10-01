@@ -2,8 +2,6 @@ package com.puzzle; /**
  * Created by Kushagra Thapar on 9/17/15.
  */
 
-import com.puzzle.AbstractEightPuzzleStructure;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
