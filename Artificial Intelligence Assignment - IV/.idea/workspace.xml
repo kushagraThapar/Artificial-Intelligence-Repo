@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32689e76-620c-4921-aaaa-3645e8a517e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IDDFSExecutionClass.java" afterPath="$PROJECT_DIR$/src/IDDFSExecutionClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IterativeDeepeningDFS.java" afterPath="$PROJECT_DIR$/src/IterativeDeepeningDFS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/astar/execution/AStarSearchExecutionH1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/astar/execution/AStarSearchExecutionH2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/astar/implementation/AStarSearchImplementationH1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/astar/implementation/AStarSearchImplementationH2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/common/Abstract15PuzzleStructure.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/common/CurrentNodeProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/iterative/execution/IDAAStarSearchExecutionH1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/iterative/execution/IDAAStarSearchExecutionH2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/iterative/implementation/IDAAStarSearchImplementationH1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/iterative/implementation/IDAAStarSearchImplementationH2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Artificial Intelligence Assignment - IV/IDDFSExecutionClass.class" afterPath="$PROJECT_DIR$/out/production/Artificial Intelligence Assignment - IV/IDDFSExecutionClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial-Intelligence Assignment-III/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Artificial-Intelligence Assignment-III/.idea/workspace.xml" />
     </list>
     <ignored path="Artificial Intelligence Assignment - IV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +43,8 @@
       <file leaf-file-name="IDDFSExecutionClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IDDFSExecutionClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.2417583">
-              <caret line="127" column="32" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.62637365">
+              <caret line="22" column="65" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="65" />
               <folding>
                 <element signature="e#727#728#0" expanded="true" />
                 <element signature="e#766#767#0" expanded="true" />
@@ -43,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/IterativeDeepeningDFS.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+              <caret line="225" column="49" selection-start-line="225" selection-start-column="49" selection-end-line="225" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -425,22 +439,22 @@
       <option name="number" value="Default" />
       <updated>1443694034181</updated>
       <workItem from="1443694035617" duration="30000" />
-      <workItem from="1443746141591" duration="2082000" />
+      <workItem from="1443746141591" duration="7734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2112000" />
+    <option name="totallyTimeSpent" value="7764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -453,7 +467,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -474,14 +488,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IterativeDeepeningDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -504,10 +510,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IterativeDeepeningDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="225" column="49" selection-start-line="225" selection-start-column="49" selection-end-line="225" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IDDFSExecutionClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2417583">
-          <caret line="127" column="32" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.62637365">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="65" />
           <folding>
             <element signature="e#727#728#0" expanded="true" />
             <element signature="e#766#767#0" expanded="true" />
