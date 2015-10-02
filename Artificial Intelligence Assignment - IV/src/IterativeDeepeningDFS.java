@@ -53,6 +53,12 @@ public class IterativeDeepeningDFS {
     boolean solutionFound = false;
 
     /**
+     * A map to store characters A to F corresponding to numbers 10 to 15.
+     * It is a 1:1 mapping. So we will use value to get the key back at some point later.
+     */
+    public static final Map<Integer, String> numberCharacterMap = new HashMap<>();
+
+    /**
      * Default Constructor
      */
     IterativeDeepeningDFS() {
@@ -207,9 +213,17 @@ public class IterativeDeepeningDFS {
     public void dumpInMatrixForm(String stateStr) {
         for (int z = 0; z < 16; z++) {
             if (String.valueOf(stateStr.charAt(z)).equals("0")) {
-                System.out.print("  ");
+                System.out.print("    ");
             } else {
-                System.out.print(String.valueOf(stateStr.charAt(z)) + " ");
+                String output = String.valueOf(stateStr.charAt(z));
+                if(numberCharacterMap.values().contains(output)) {
+                    for(Map.Entry<Integer, String> entry : numberCharacterMap.entrySet()) {
+                        if(entry.getValue().contains(output)) {
+                            output = String.valueOf(entry.getKey());
+                        }
+                    }
+                }
+                System.out.print(output + "   ");
             }
             if ((z + 1) % 4 == 0) {
                 System.out.println();

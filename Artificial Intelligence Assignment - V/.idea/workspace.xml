@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffcc33af-302d-4cc8-8681-e3a49d7dd995" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/uiDesigner.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/.name" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/src/IDDFSExecutionClass.java" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/src/IDDFSExecutionClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/src/IterativeDeepeningDFS.java" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/src/IterativeDeepeningDFS.java" />
     </list>
     <ignored path="Artificial Intelligence Assignment - V.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,18 +25,7 @@
     <favorites_list name="Artificial Intelligence Assignment - V" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Artificial Intelligence Assignment - V.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Artificial Intelligence Assignment - V.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1950867">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -387,12 +373,12 @@
       <created>1443694087149</created>
       <option name="number" value="Default" />
       <updated>1443694087149</updated>
-      <workItem from="1443694088501" duration="65000" />
+      <workItem from="1443694088501" duration="413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65000" />
+    <option name="totallyTimeSpent" value="413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
@@ -412,7 +398,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -423,6 +409,14 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -431,10 +425,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Data/UIC/UIC course books/artificial intelligence/Assignment Solutions/A-4/Sol_HW4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1517341">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Artificial Intelligence Assignment - V.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1950867">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0216763">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
           <folding />
         </state>
       </provider>

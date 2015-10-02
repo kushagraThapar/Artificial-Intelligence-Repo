@@ -22,11 +22,6 @@ public class IDDFSExecutionClass {
      */
     private static final String INITIAL_STATE = "1024573896BCDAEF";
 
-    /**
-     * A map to store characters A to F corresponding to numbers 10 to 15.
-     */
-    public static final Map<Integer, String> numberCharacterMap = new HashMap<>();
-
     public static final int MAX_LIMIT = 100;
 
     public static void main(String[] args) {
@@ -69,12 +64,12 @@ public class IDDFSExecutionClass {
      * This method initializes the number character map.
      */
     public static void initializeNumberStringMap() {
-        numberCharacterMap.put(10, "A");
-        numberCharacterMap.put(11, "B");
-        numberCharacterMap.put(12, "C");
-        numberCharacterMap.put(13, "D");
-        numberCharacterMap.put(14, "E");
-        numberCharacterMap.put(15, "F");
+        IterativeDeepeningDFS.numberCharacterMap.put(10, "A");
+        IterativeDeepeningDFS.numberCharacterMap.put(11, "B");
+        IterativeDeepeningDFS.numberCharacterMap.put(12, "C");
+        IterativeDeepeningDFS.numberCharacterMap.put(13, "D");
+        IterativeDeepeningDFS.numberCharacterMap.put(14, "E");
+        IterativeDeepeningDFS.numberCharacterMap.put(15, "F");
     }
 
     /**
@@ -101,7 +96,7 @@ public class IDDFSExecutionClass {
                 return null;
             stateCharactersCharacterSet.add(str);
             if (Integer.parseInt(str) >= 10) {
-                newInput += numberCharacterMap.get(Integer.parseInt(str));
+                newInput += IterativeDeepeningDFS.numberCharacterMap.get(Integer.parseInt(str));
             } else {
                 newInput += str;
             }
