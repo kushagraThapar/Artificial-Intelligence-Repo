@@ -8,7 +8,7 @@ public class IterativeDeepeningDFS {
     /**
      * String storing the final state of the IDDFS problem.
      */
-    public static final String FINAL_STATE = "123456789ABCDEF0";
+    public static final String FINAL_STATE = "0123456789ABCDEF";
 
     /**
      * String storing the initial State
@@ -216,9 +216,9 @@ public class IterativeDeepeningDFS {
                 System.out.print("    ");
             } else {
                 String output = String.valueOf(stateStr.charAt(z));
-                if(numberCharacterMap.values().contains(output)) {
-                    for(Map.Entry<Integer, String> entry : numberCharacterMap.entrySet()) {
-                        if(entry.getValue().contains(output)) {
+                if (numberCharacterMap.values().contains(output)) {
+                    for (Map.Entry<Integer, String> entry : numberCharacterMap.entrySet()) {
+                        if (entry.getValue().contains(output)) {
                             output = String.valueOf(entry.getKey());
                         }
                     }

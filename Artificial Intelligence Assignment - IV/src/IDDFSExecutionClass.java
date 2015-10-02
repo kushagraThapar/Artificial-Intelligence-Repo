@@ -20,11 +20,21 @@ public class IDDFSExecutionClass {
      * 0 represents the blank space,
      * A to F represents the numbers from 10 to 15 respectively.
      */
-    private static final String INITIAL_STATE = "1024573896BCDAEF";
+    private static final String INITIAL_STATE = "26A3147B859FCDE0"; //"1024573896BCDAEF";
+
+    private static final double MEGABYTE = 1048576F;
+
+    public static double bytesToMegabytes(long bytes) {
+        return bytes / MEGABYTE;
+    }
+
 
     public static final int MAX_LIMIT = 100;
 
     public static void main(String[] args) {
+
+        long startTime = System.currentTimeMillis();
+
         String inputPuzzle;
 
         /**
@@ -44,7 +54,7 @@ public class IDDFSExecutionClass {
             if (inputPuzzle == null) {
                 System.out.println("Input State is not a valid state for a 15-puzzle problem. \n" +
                         "Please verify the input state. \n. " +
-                        "Sample Input: 1, 0, 2, 4, 5, 7, 3, 8, 9, 6, 11, 12, 13, 10, 14, 15\nExiting now....");
+                        "Sample Input: 2,6,10,3,1,4,7,11,8,5,9,15,12,13,14,0 \nExiting now....");
                 System.exit(1);
             }
         }
@@ -58,6 +68,23 @@ public class IDDFSExecutionClass {
                 break;
             }
         }
+
+        Runtime runtime = Runtime.getRuntime();
+        System.out.println("Processors available for this application are -> [" + runtime.availableProcessors() + "]");
+
+        //  Calling the garbage collector
+        runtime.gc();
+
+        long freeMemory = runtime.freeMemory();
+        long totalMemory = runtime.totalMemory();
+
+        long memoryUsed = totalMemory - freeMemory;
+
+        System.out.println("Memory used by this application is (bytes) -> [" + memoryUsed + "]");
+        System.out.println("Memory used by this application is (MegaBytes) -> [" + bytesToMegabytes(memoryUsed) + "]");
+
+        long endTime = System.currentTimeMillis();
+        System.out.println("Total time taken (seconds) -> [" + (endTime - startTime) / 1000.0 + "]");
     }
 
     /**
