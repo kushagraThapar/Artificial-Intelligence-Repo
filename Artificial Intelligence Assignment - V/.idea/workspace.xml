@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffcc33af-302d-4cc8-8681-e3a49d7dd995" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/astar/execution/AStarSearchExecutionH1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/astar/execution/AStarSearchExecutionH2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/astar/implementation/AStarSearchImplementationH1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/astar/implementation/AStarSearchImplementationH2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/common/Abstract15PuzzleStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/common/CurrentNodeProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/iterative/execution/IDAAStarSearchExecutionH1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/iterative/execution/IDAAStarSearchExecutionH2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/iterative/implementation/IDAAStarSearchImplementationH1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/iterative/implementation/IDAAStarSearchImplementationH2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/out/production/Artificial Intelligence Assignment - IV/IDDFSExecutionClass.class" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/out/production/Artificial Intelligence Assignment - IV/IDDFSExecutionClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial-Intelligence Assignment-III/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Artificial-Intelligence Assignment-III/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ffcc33af-302d-4cc8-8681-e3a49d7dd995" name="Default" comment="" />
     <ignored path="Artificial Intelligence Assignment - V.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -802,12 +785,12 @@
       <created>1443694087149</created>
       <option name="number" value="Default" />
       <updated>1443694087149</updated>
-      <workItem from="1443694088501" duration="10155000" />
+      <workItem from="1443694088501" duration="10238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10155000" />
+    <option name="totallyTimeSpent" value="10238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
@@ -830,8 +813,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />

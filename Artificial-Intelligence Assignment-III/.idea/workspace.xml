@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c727f29b-d178-47d3-9ceb-43f0de57d6a1" name="Default" comment="optimizing imports">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/astar/execution/AStarSearchExecutionH1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/astar/execution/AStarSearchExecutionH2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/astar/implementation/AStarSearchImplementationH1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/astar/implementation/AStarSearchImplementationH2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/common/Abstract15PuzzleStructure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/common/CurrentNodeProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/iterative/execution/IDAAStarSearchExecutionH1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/iterative/execution/IDAAStarSearchExecutionH2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/iterative/implementation/IDAAStarSearchImplementationH1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/src/com/iterative/implementation/IDAAStarSearchImplementationH2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/out/production/Artificial Intelligence Assignment - IV/IDDFSExecutionClass.class" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/out/production/Artificial Intelligence Assignment - IV/IDDFSExecutionClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - IV/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Artificial Intelligence Assignment - V/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c727f29b-d178-47d3-9ceb-43f0de57d6a1" name="Default" comment="optimizing imports" />
     <ignored path="Artificial-Intelligence Assignment-III.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -610,6 +593,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
