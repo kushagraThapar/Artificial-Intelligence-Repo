@@ -7,6 +7,10 @@ import java.util.Queue;
 
 public class BFSImplementation extends AbstractEightPuzzleStructure {
 
+    public BFSImplementation() {
+        startTime = System.currentTimeMillis();
+    }
+
     /**
      * Since, BFS uses FIFO, so we have used a queue here as the frontier, which is implemented
      * using linked list to add new Nodes.

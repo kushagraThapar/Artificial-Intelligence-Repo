@@ -8,6 +8,11 @@ import java.util.*;
 abstract public class AbstractEightPuzzleStructure {
 
     /**
+     * Variable to store the start time of the program
+     */
+    protected long startTime;
+
+    /**
      * We need to store the depth of the solution, so a map has been used to store the depth of the
      * nodes. Hash Map is used to ignore the repeated ones.
      */
@@ -181,7 +186,7 @@ abstract public class AbstractEightPuzzleStructure {
             System.out.println(s);
             i++;
         }
-        System.exit(0);
+        printRuntimeAndMemoryAnalysis();
     }
 
 
@@ -230,5 +235,17 @@ abstract public class AbstractEightPuzzleStructure {
             stateCharactersCharacterSet.add(c);
         }
         return true;
+    }
+
+    public void printRuntimeAndMemoryAnalysis() {
+        Runtime runtime = Runtime.getRuntime();
+        runtime.gc();
+
+        double usedMemory = runtime.totalMemory() - runtime.freeMemory();
+        usedMemory /= (1024*1024);
+        System.out.println("\nTotal Memory used is (mega bytes) -> [" + usedMemory + "]");
+        double executionTime = (System.currentTimeMillis() - startTime) / 1000.0;
+        System.out.println("\nTime Taken by program (seconds) -> [" + executionTime + "]");
+        System.exit(0);
     }
 }
