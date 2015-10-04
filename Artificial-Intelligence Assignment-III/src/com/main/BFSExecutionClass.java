@@ -64,5 +64,10 @@ public class BFSExecutionClass {
          */
         System.out.println("There is no solution for this particular initial state. " +
                 "Please run the program again with some other initial state");
+
+        /**
+         * Method to print runtime and memory analysis when there is no solution found
+         */
+        e.printRuntimeAndMemoryAnalysis();
     }
 }
