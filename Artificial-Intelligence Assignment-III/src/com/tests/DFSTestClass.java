@@ -28,7 +28,7 @@ public class DFSTestClass {
     @BeforeTest
     public void inputsCustomization() {
         System.out.println("Before Test");
-        System.out.println("Preparing inputs for the BFS Search");
+        System.out.println("Preparing inputs for the DFS Search");
         inputArrays.add("724506831");
         inputArrays.add("234542321");
         inputArrays.add("123456780");

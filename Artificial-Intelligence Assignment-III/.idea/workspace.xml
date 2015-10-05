@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c727f29b-d178-47d3-9ceb-43f0de57d6a1" name="Default" comment="optimizing imports">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tests/BFSTestClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tests/DFSTestClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Artificial-Intelligence Assignment-III/com/puzzle/AbstractEightPuzzleStructure.class" afterPath="$PROJECT_DIR$/out/production/Artificial-Intelligence Assignment-III/com/puzzle/AbstractEightPuzzleStructure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Artificial-Intelligence Assignment-III/com/main/BFSExecutionClass.class" afterPath="$PROJECT_DIR$/out/production/Artificial-Intelligence Assignment-III/com/main/BFSExecutionClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Artificial-Intelligence Assignment-III/com/puzzle/BFSImplementation.class" afterPath="$PROJECT_DIR$/out/production/Artificial-Intelligence Assignment-III/com/puzzle/BFSImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Artificial-Intelligence Assignment-III/com/main/DFSExecutionClass.class" afterPath="$PROJECT_DIR$/out/production/Artificial-Intelligence Assignment-III/com/main/DFSExecutionClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Artificial-Intelligence Assignment-III/com/puzzle/DFSImplementation.class" afterPath="$PROJECT_DIR$/out/production/Artificial-Intelligence Assignment-III/com/puzzle/DFSImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/puzzle/AbstractEightPuzzleStructure.java" afterPath="$PROJECT_DIR$/src/com/puzzle/AbstractEightPuzzleStructure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Artificial-Intelligence Assignment-III.iml" afterPath="$PROJECT_DIR$/Artificial-Intelligence Assignment-III.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/main/BFSExecutionClass.java" afterPath="$PROJECT_DIR$/src/com/main/BFSExecutionClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/puzzle/BFSImplementation.java" afterPath="$PROJECT_DIR$/src/com/puzzle/BFSImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/main/DFSExecutionClass.java" afterPath="$PROJECT_DIR$/src/com/main/DFSExecutionClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/puzzle/DFSImplementation.java" afterPath="$PROJECT_DIR$/src/com/puzzle/DFSImplementation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tests/DFSTestClass.java" afterPath="$PROJECT_DIR$/src/com/tests/DFSTestClass.java" />
     </list>
     <ignored path="Artificial-Intelligence Assignment-III.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DFSTestClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DFSTestClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tests/DFSTestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state vertical-scroll-proportion="-0.10549133">
+              <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BFSTestClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BFSTestClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tests/BFSTestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4768786">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,8 +166,8 @@
         <option value="$PROJECT_DIR$/src/com/puzzle/DFSImplementation.java" />
         <option value="$PROJECT_DIR$/src/com/puzzle/BFSImplementation.java" />
         <option value="$PROJECT_DIR$/src/com/main/BFSExecutionClass.java" />
-        <option value="$PROJECT_DIR$/src/com/tests/DFSTestClass.java" />
         <option value="$PROJECT_DIR$/src/com/tests/BFSTestClass.java" />
+        <option value="$PROJECT_DIR$/src/com/tests/DFSTestClass.java" />
       </list>
     </option>
   </component>
@@ -765,7 +752,7 @@
       <workItem from="1443755212786" duration="1121000" />
       <workItem from="1443847337325" duration="5000" />
       <workItem from="1443928520888" duration="2173000" />
-      <workItem from="1444000732041" duration="9840000" />
+      <workItem from="1444000732041" duration="9965000" />
     </task>
     <task id="LOCAL-00001" summary="optimizing imports">
       <created>1443659318715</created>
@@ -777,7 +764,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15845000" />
+    <option name="totallyTimeSpent" value="15970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
@@ -1099,16 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/DFSExecutionClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/puzzle/BFSImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1161,20 +1138,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tests/DFSTestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tests/BFSTestClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tests/BFSTestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/com/main/DFSExecutionClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4768786">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tests/DFSTestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.10549133">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
