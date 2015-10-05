@@ -1,5 +1,6 @@
 package com.main;
 
+import com.puzzle.AbstractEightPuzzleStructure;
 import com.puzzle.BFSImplementation;
 
 /**
@@ -30,7 +31,7 @@ public class BFSExecutionClass {
             str = args[0];
         }
 
-        BFSImplementation e = new BFSImplementation();
+        AbstractEightPuzzleStructure e = new BFSImplementation();
 
         System.out.println("Input State is : \n" + e.printEachNodeAsState(str));
 
@@ -41,30 +42,19 @@ public class BFSExecutionClass {
         }
 
         /**
-         *  Add the initial state as the new node with its parent as null.
+         * This method is called to perform the search operation
          */
-        e.addNewNodeToFrontier(str, null);
-
-        /**
-         *  While the frontier is not empty, which means there are still nodes to expand,
-         *  pull the current node from the frontier and perform actions in order of up, down, left and right
-         *  to find the next possible states.
-         */
-        while (!e.queueFrontier.isEmpty()) {
-            String currentState = e.queueFrontier.remove();
-            e.performUpwardAction(currentState);
-            e.performDownwardAction(currentState);
-            e.performLeftwardAction(currentState);
-            e.performRightwardAction(currentState);
-        }
+        String finalState = e.performSearch(str);
+        System.out.println("Now, final state is -> [" + finalState + "]");
 
         /**
          *  If Frontier is empty, then there is no such state which matches the goal state, hence the solution
          *  does not exist for this particular initial state.
          */
-        System.out.println("There is no solution for this particular initial state. " +
-                "Please run the program again with some other initial state");
-
+        if(!e.isSolutionFound()) {
+            System.out.println("There is no solution for this particular initial state. " +
+                    "Please run the program again with some other initial state");
+        }
         /**
          * Method to print runtime and memory analysis when there is no solution found
          */

@@ -1,5 +1,6 @@
 package com.main;
 
+import com.puzzle.AbstractEightPuzzleStructure;
 import com.puzzle.DFSImplementation;
 
 /**
@@ -28,7 +29,7 @@ public class DFSExecutionClass {
             str = args[0];
         }
 
-        DFSImplementation e = new DFSImplementation();
+        AbstractEightPuzzleStructure e = new DFSImplementation();
         System.out.println("Input State is : \n" + e.printEachNodeAsState(str));
 
         if(!e.verifyInputState(str)) {
@@ -37,23 +38,7 @@ public class DFSExecutionClass {
             System.exit(1);
         }
 
-        /**
-         *  Add the initial state as the new node with its parent as null.
-         */
-        e.addNewNodeToFrontier(str, null);
-
-        /**
-         *  While the frontier is not empty, which means there are still nodes to expand,
-         *  pull the current node from the frontier and perform actions in order of up, down, left and right
-         *  to find the next possible states.
-         */
-        while (!e.stackFrontier.isEmpty()) {
-            String currentState = e.stackFrontier.pop();
-            e.performUpwardAction(currentState);
-            e.performDownwardAction(currentState);
-            e.performLeftwardAction(currentState);
-            e.performRightwardAction(currentState);
-        }
+        e.performSearch(str);
 
         /**
          *  If Frontier is empty, then there is no such state which matches the goal state, hence the solution

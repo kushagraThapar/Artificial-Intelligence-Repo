@@ -13,6 +13,11 @@ abstract public class AbstractEightPuzzleStructure {
     protected long startTime;
 
     /**
+     * Variable to store the final State
+     */
+    protected String finalState = "";
+
+    /**
      * We need to store the depth of the solution, so a map has been used to store the depth of the
      * nodes. Hash Map is used to ignore the repeated ones.
      */
@@ -32,10 +37,15 @@ abstract public class AbstractEightPuzzleStructure {
     public Map<String, String> stateActionMap = new HashMap<>();
 
     /**
-     * Keeping in mind the good coding practices, so used private static final variables instead of literals
+     * Keeping in mind the good coding practices, so used static final variables instead of literals
      */
-    protected static final String SOLUTION = "012345678";
+    public static final String SOLUTION = "012345678";
     protected static final String BLANK_SPACE = "0";
+
+    /**
+     * Boolean to store if solution found or not
+     */
+    protected boolean solutionFound = false;
 
     /**
      * Possible Actions on any node which will lead it to a new state
@@ -44,6 +54,13 @@ abstract public class AbstractEightPuzzleStructure {
     protected static final String DOWN = "DOWN";
     protected static final String LEFT = "LEFT";
     protected static final String RIGHT = "RIGHT";
+
+    /**
+     * This method performs the search operation. Implementations need to override it with respect
+     * to their own executions.
+     * @param input
+     */
+    abstract public String performSearch(String input);
 
 
     /**
@@ -151,6 +168,8 @@ abstract public class AbstractEightPuzzleStructure {
     protected void checkFinalState(String oldNode, String newNode) {
         addNewNodeToFrontier(newNode, oldNode);
         if (newNode.equals(SOLUTION)) {
+            solutionFound = true;
+            finalState = newNode;
             System.out.println("Solution Exists at Level " + nodeLevelMap.get(newNode) + " of the tree");
             printFullStackTraceForGoal(newNode);
         }
@@ -186,7 +205,6 @@ abstract public class AbstractEightPuzzleStructure {
             System.out.println(s);
             i++;
         }
-        printRuntimeAndMemoryAnalysis();
     }
 
 
@@ -237,6 +255,9 @@ abstract public class AbstractEightPuzzleStructure {
         return true;
     }
 
+    /**
+     * This method calculates the runtime and memory analysis of the prgram.
+     */
     public void printRuntimeAndMemoryAnalysis() {
         Runtime runtime = Runtime.getRuntime();
         runtime.gc();
@@ -246,6 +267,13 @@ abstract public class AbstractEightPuzzleStructure {
         System.out.println("\nTotal Memory used is (mega bytes) -> [" + usedMemory + "]");
         double executionTime = (System.currentTimeMillis() - startTime) / 1000.0;
         System.out.println("\nTime Taken by program (seconds) -> [" + executionTime + "]");
-        System.exit(0);
+    }
+
+    public String getFinalState() {
+        return finalState;
+    }
+
+    public boolean isSolutionFound() {
+        return solutionFound;
     }
 }
